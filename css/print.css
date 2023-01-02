@@ -1,0 +1,11 @@
+@media print {
+    #container nav, .banderole-creation{
+        display: none;
+    }
+    
+    #conteneur{
+        position: relative;
+        bottom: 2.5cm;
+        right: 1cm;
+    }
+}

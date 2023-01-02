@@ -1,0 +1,50 @@
+.banderole-creation{
+    background-color: white;
+}
+
+/*Fragmenthèque*/
+
+.fragment-liste-div{
+    background-size: 100% 100%;
+}
+
+.fragment-liste-div:hover{
+    cursor: url("/img/croix.gif");
+}
+
+/*Generation*/
+
+.page-generation nav{
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.carte{
+    border-radius: 8.5cm;
+    border: solid 1px black;
+    z-index: 0;
+}
+
+.mode-suppression{
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.mode-suppression:hover{
+    background-color: #e5426e;
+    transition: 0.5s;
+}
+
+.fragment-affichage{
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.fragment-affichage:hover{
+    cursor: move;
+}
+
+.mode-suppression .fragment-affichage:hover{
+    cursor: not-allowed;
+}
+

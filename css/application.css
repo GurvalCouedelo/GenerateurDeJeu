@@ -1,0 +1,93 @@
+.bloc-page{
+    padding: 20px;
+}
+
+/* Fragmenthèque */
+
+.fragment-liste-div{
+    width: 24vh;
+    height: 16vh;
+    margin: 0.6172839506%;
+    display: inline-block;
+}
+
+.case-a-cocher-fragmentheque{
+    z-index: 1;
+    margin: 1%;
+}
+
+#liste-fragment{
+    overflow: auto;
+    padding-bottom: 13vh;
+}
+
+.banderole-creation{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.banderole-creation form{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* formulaires */
+
+input[type=file]{
+    margin: 0 0 20px 0;
+}
+
+.banderole-creation #nom-fichier{
+    width: 50%;
+}
+
+.grand-formulaire{
+    margin-bottom: 20px;
+}
+
+/* Boutons */
+
+.grand-formulaire button[type=submit]{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Generation*/
+
+html .page-generation, body .page-generation{
+    width: 21cm;
+}
+
+.menu-generation{
+    position: fixed;
+}
+
+.carte{
+    width: 8.5cm;
+    height: 8.5cm;
+    
+    display: inline-block;
+    position: absolute;
+}
+
+
+.fragment-affichage{
+    position: absolute;
+}
+
+.detecteurRoue{
+    height: 100px;
+    overflow: auto;
+}
+
+.detecteurRoueInterieur{
+    height: 200px;
+}
+
+.conteneur{
+    display: block;
+}
